@@ -1,0 +1,11 @@
+version: 2
+
+models:
+    - name: sample3
+      columns:
+        - name: currency
+          tests: 
+           - accepted_values:
+                values:
+                    - IN
+             

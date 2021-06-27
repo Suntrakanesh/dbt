@@ -1,1 +1,1 @@
-select * from shopify_schema.order
+select * from shopify_schema.customer

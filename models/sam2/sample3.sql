@@ -11,7 +11,7 @@ with orders as (
        email as "Email",
        currency,
        shipping_address_name
-    from shopify_schema.order   
+    from {{ source('shopify_schema','order')}}  
 )
 
 select * from orders

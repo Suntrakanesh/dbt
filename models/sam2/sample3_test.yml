@@ -1,0 +1,13 @@
+version: 2
+
+models:
+    - name: sample3
+      description: Currency check
+      columns:
+        - name: currency
+          description: "{{ doc('order_status') }}"
+          tests: 
+           - accepted_values:
+                values:
+                    - IN
+             

@@ -9,5 +9,5 @@ models:
           tests: 
            - accepted_values:
                 values:
-                    - IN
+                    - INR
              
